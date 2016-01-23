@@ -134,11 +134,7 @@ if (comments_open()){
 
 echo '<div style="margin-top: 15px; margin-bottom: 15px;">';
 
-_e( 'Posted by ', 'floki' );
 
-echo get_the_author();
-
-echo ' | ';
 
 the_category(', ');
 		

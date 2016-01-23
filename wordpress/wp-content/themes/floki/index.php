@@ -132,7 +132,6 @@ echo '<a href="'.get_permalink().'">'.get_the_title().'</a>';
 echo '</h2><strong>';
 
 
-
 _e( 'Posted by ', 'floki' );
 
 echo get_the_author();
@@ -145,6 +144,7 @@ the_category(', ');
 echo '</div>';
 
 		?>
+
 
 <?php  the_content('<button>'.__( 'Read more', 'floki' ).' &raquo;</button>'); ?>
     

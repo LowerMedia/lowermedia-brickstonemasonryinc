@@ -64,7 +64,7 @@ function wds_seomoz_dashboard_widget () {
 	</tbody>
 </table>
 <p>' . __( 'For posts / pages specific metrics refer to the Moz URL metrics module on the Edit Post / Page screen' , 'wds') . '</p>' .
-'<p><a href="http://moz.com/" target="_blank"><img src="' . WDS_PLUGIN_URL . 'images/linkscape-logo.png" title="Moz Linkscape API" /></a></p>';
+'<p><a href="http://moz.com/" target="_blank"><img src="' . WDS_PLUGIN_URL . 'images/linkscape-logo.png" title="Moz Linkscape API" /></a></p>';	    		  	 			    	
 }
 
 function wds_add_seomoz_dashboard_widget () {

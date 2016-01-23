@@ -1909,5 +1909,20 @@ function floki_sanitize_number( $input ) {
 
 }
 
+// show post thumbnails in feeds
+function diw_post_thumbnail_feeds($content) {
+	global $post;
+	if(has_post_thumbnail($post->ID)) {
+		$content = '<div>' . get_the_post_thumbnail($post->ID) . '</div>' . $content;
+	}
+	return $content;
+}
+add_filter('the_excerpt_rss', 'diw_post_thumbnail_feeds');
+add_filter('the_content_feed', 'diw_post_thumbnail_feeds');
 
+//adding thumbnail support
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions (cropped)
+}
 ?>

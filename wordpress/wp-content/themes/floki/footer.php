@@ -52,7 +52,7 @@
          </div>
          <?php } else { ?>
 			
-            <p><?php echo esc_textarea(floki_get_option( 'footertext' )); ?></p>
+            <p>&copy; <?php echo date(Y); ?> <?php echo esc_textarea(floki_get_option( 'footertext' )); ?> | <a href="http://lowermedia.net">A LowerMedia Site</a></p>
             
             <?php } ?>
             

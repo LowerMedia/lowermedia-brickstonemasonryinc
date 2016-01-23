@@ -1,9 +1,21 @@
 Plugin Name: WPMU DEV SEO
-Author: Ulrich Sossou (Incsub)
 
 Change Log:
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
+
+1.7.6 - 2015-08-25
+----------------------------------------------------------------------
+- Add advanced robots options info on listing pages.
+- Add redirections info on listing pages.
+- Project name update.
+
+1.7.5 - 2015-08-15
+----------------------------------------------------------------------
+- Add 301 redirection box permission level to the defaults list.
+- Fix for titles processing in feeds output.
+- Fix and cleanup for post type checks conditionals.
+- Fix for duplicated static front page in sitemaps.
 
 1.7.4 - 2014-12-28
 ----------------------------------------------------------------------
@@ -330,4 +342,4 @@ exist yet
 - Initial Release.
 
 
-275002-1437933630
+275002-1444841674-au
